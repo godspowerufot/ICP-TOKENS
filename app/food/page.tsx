@@ -37,7 +37,7 @@ export default function Page() {
               </h3>
               <p className="mb-6 text-center">
                 90% of deliveries completed same-day&quot;From documents to
-                dumbbells—we move it fast{" "}
+                dumbbells we move it fast{" "}
               </p>
               <Button className="bg-white text-primary font-medium px-4 py-2 rounded-lg hover:bg-gray-100 transition">
                 Learn More

@@ -143,7 +143,7 @@ const EarnMore: React.FC = () => {
               {activeTab === "food-vendors" && (
                 <div className="w-full h-96 lg:h-[500px]  relative flex items-center justify-center">
                   <Image
-                    src="/images/move-3.png"
+                    src="/images/movve-3.png"
                     alt="Food delivery person"
                     width={1000}
                     height={600}
@@ -201,7 +201,7 @@ export default function Home() {
       />
       <section className="bg-gray-50  pt-5 flex flex-col justify-center items-center font-sans md:py-16 w-full">
         <h1 className="text-black font-bold text-[2em] md:text-5xl text-md">
-          Why choose Move App?
+          Why choose movve App?
         </h1>
         <h2 className="text-[#6C757D]  mt-1 md:mt-3 text-sm">
           Rides that save time. Deliveries that save effort.

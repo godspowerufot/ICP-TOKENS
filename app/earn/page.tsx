@@ -162,7 +162,7 @@ export default function HeroSection() {
           </h1>
           <p className="text-lg lg:text-xl text-gray-200 mb-8 max-w-xl">
             Skip the wait and surge pricing. Reliable rides at upfront prices,
-            only on the Move App.
+            only on the Movve App.
           </p>
           <button className="bg-white text-black font-medium px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition-colors">
             Download Now

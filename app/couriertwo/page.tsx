@@ -20,7 +20,7 @@ const MovveDeliveryPage = () => {
             Reach Thousands of Hungry Customers— No Delivery Hassle{" "}
           </h1>
           <p className="text-sm lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-10">
-            Join Move’s restaurant network and boost sales with our reliable
+            Join Movve’s restaurant network and boost sales with our reliable
             delivery fleet and marketing support.{" "}
           </p>
           <button

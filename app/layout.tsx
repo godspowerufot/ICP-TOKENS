@@ -11,8 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Free OSM + OSRM Directions",
-  description: "Uber-like routing with open APIs (no key)",
+  title: "MOVVE",
+  description:
+    "MOVVE is your all-in-one mobility and delivery platform – from ride booking and ride sharing to food and parcel delivery, we connect people, drivers, and vendors seamlessly.",
 };
 
 export default function RootLayout({

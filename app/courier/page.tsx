@@ -51,7 +51,7 @@ const MovveDeliveryPage = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
-              Why Deliver With Move?
+              Why Deliver With Movve?
             </h2>
             <p className="text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto">
               Deliver on your schedule—no shifts, no quotas, just open the app
