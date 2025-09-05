@@ -124,7 +124,7 @@ export default function Navbar() {
             </div>
 
             <Link
-              href="/company"
+              href="/drive"
               className="text-black hover:text-gray-700 px-4 py-2"
             >
               Company
@@ -134,7 +134,7 @@ export default function Navbar() {
           {/* Register Button */}
           <div className="hidden md:block">
             <Link
-              href="/register"
+              href="/waitlist"
               className="bg-black text-white px-5 py-3 rounded-lg hover:bg-gray-900"
             >
               Register
@@ -224,7 +224,7 @@ export default function Navbar() {
             Company
           </Link>
           <Link
-            href="/register"
+            href="/waitlist"
             className="block bg-black text-white text-center px-4 py-2 rounded-lg"
           >
             Register

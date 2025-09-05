@@ -6,17 +6,30 @@ const MovveWaitlistComponent = () => {
   const [email, setEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (email.trim()) {
-      console.log("Email submitted:", email);
-      // Add your waitlist submission logic here
-      setIsSubmitted(true);
+      try {
+        const response = await fetch(
+          "https://68bb1b7284055bce63f136f0.mockapi.io/waitlist/email",
+          {
+            method: "POST",
+            body: JSON.stringify({ email }),
+            headers: { "Content-Type": "application/json" },
+          }
+        );
 
-      // Reset after 3 seconds for demo purposes
-      setTimeout(() => {
-        setIsSubmitted(false);
-        setEmail("");
-      }, 3000);
+        const result = await response.json();
+        console.log("Submitted:", result);
+
+        setIsSubmitted(true);
+
+        setTimeout(() => {
+          setIsSubmitted(false);
+          setEmail("");
+        }, 3000);
+      } catch (error) {
+        console.error("Error submitting:", error);
+      }
     }
   };
 

@@ -44,7 +44,7 @@ const EarnMore: React.FC = () => {
         "Safety First: In-app SOS button and 24/7 support",
       ],
       buttonText: "Start Driving Today",
-      image: "/api/placeholder/600/400",
+      image: "/images/carousel.jpg",
     },
     couriers: {
       title: "Deliver Packages, Earn Money",
@@ -56,7 +56,7 @@ const EarnMore: React.FC = () => {
         "Quick Payments: Get paid weekly or instantly",
       ],
       buttonText: "Start Delivering Today",
-      image: "/api/placeholder/600/400",
+      image: "/images/carousel.jpg",
     },
     "food-vendors": {
       title: "Grow Your Food Business",
@@ -68,7 +68,7 @@ const EarnMore: React.FC = () => {
         "Real-time Orders: Instant notifications and order management",
       ],
       buttonText: "Join as Vendor",
-      image: "/api/placeholder/600/400",
+      image: "/images/carousel.jpg",
     },
   };
 
@@ -115,35 +115,33 @@ const EarnMore: React.FC = () => {
           <div className="order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               {activeTab === "driver" && (
-                <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-gray-300 to-gray-400 relative">
-                  {/* Simulated car interior with driver */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-                  <div className="absolute bottom-8 left-8">
-                    <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center">
-                      <div className="w-10 h-10 bg-gray-800 rounded-full"></div>
-                    </div>
-                  </div>
-                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <div className="text-6xl">🚗</div>
-                  </div>
+                <div className="w-full h-96 lg:h-[500px]  relative flex items-center justify-center">
+                  <Image
+                    src="/images/move-3.png"
+                    alt="Food delivery person"
+                    width={1000}
+                    height={600}
+                    className="w-full h-80 lg:h-full object-cover rounded-2xl shadow-2xl"
+                  />
                 </div>
               )}
 
               {activeTab === "couriers" && (
-                <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-blue-300 to-blue-400 relative flex items-center justify-center">
-                  <div className="text-8xl">📦</div>
-                  <div className="absolute bottom-8 right-8">
-                    <div className="w-16 h-16 bg-green-400 rounded-full flex items-center justify-center">
-                      <div className="text-2xl">✓</div>
-                    </div>
-                  </div>
+                <div className="w-full h-96 lg:h-[500px]  relative flex items-center justify-center">
+                  <Image
+                    src="/images/move-3.png"
+                    alt="Food delivery person"
+                    width={1000}
+                    height={600}
+                    className="w-full h-80 lg:h-full object-cover rounded-2xl shadow-2xl"
+                  />
                 </div>
               )}
 
               {activeTab === "food-vendors" && (
                 <div className="w-full h-96 lg:h-[500px]  relative flex items-center justify-center">
                   <Image
-                    src="/images/movve-3.png"
+                    src="/images/move-3.png"
                     alt="Food delivery person"
                     width={1000}
                     height={600}
