@@ -10,7 +10,7 @@ const MovveWaitlistComponent = () => {
     if (email.trim()) {
       try {
         const response = await fetch(
-          "https://68bb1b7284055bce63f136f0.mockapi.io/waitlist/email",
+          "https://68bb246484055bce63f14b39.mockapi.io/api/email",
           {
             method: "POST",
             body: JSON.stringify({ email }),
