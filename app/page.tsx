@@ -7,6 +7,7 @@ import React, { useState } from "react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import WhatsMovingCarousel from "@/components/layout/carousel";
+import MovveWaitlistComponent from "@/components/layout/page";
 interface Tab {
   id: string;
   label: string;
@@ -209,6 +210,7 @@ export default function Home() {
         <MobileAppLanding />
         <EarnMore />
         <WhatsMovingCarousel />
+        <MovveWaitlistComponent />
       </section>
     </main>
   );
